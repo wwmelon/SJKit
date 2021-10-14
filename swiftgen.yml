@@ -1,0 +1,12 @@
+input_dir: SJKit/Resources
+output_dir: SJKit/Generated
+
+xcassets:
+  inputs: SJKit.xcassets
+  outputs:
+    - templatePath: ${FF_SCRIPTS}/swiftgen/templates/xcassets-swift5.stencil
+      params:
+        enumName: A
+        publicAccess: false
+        bundle: Bundle.module
+      output: XCAssets+Generated.swift
