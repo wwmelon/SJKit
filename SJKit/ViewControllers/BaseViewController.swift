@@ -30,11 +30,11 @@ open class BaseViewController: UIViewController {
     }
     
     @objc func onBack(_ sender: UIBarButtonItem) {
-        
+        navigationController?.popViewController(animated: true)
     }
     
     @objc func onClose(_ sender: UIBarButtonItem) {
-        
+        navigationController?.popViewController(animated: true)
     }
     
     deinit {
@@ -45,6 +45,8 @@ open class BaseViewController: UIViewController {
 extension BaseViewController {
     
     func setupNavigationBar() {
-        self.navigationItem.leftBarButtonItem = backButtonItem
+        if navigationController?.viewControllers.count ?? 0 > 1 {
+            self.navigationItem.leftBarButtonItem = backButtonItem
+        }
     }
 }

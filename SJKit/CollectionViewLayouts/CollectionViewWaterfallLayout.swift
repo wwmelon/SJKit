@@ -1,9 +1,8 @@
 //
 //  CollectionViewWaterfallLayout.swift
-//  PDAppKit
+//  SJKit
 //
 //  Created by shijia.chen on 2021/9/10.
-//  Copyright © 2021 Farfetch. All rights reserved.
 //
 
 import Foundation
