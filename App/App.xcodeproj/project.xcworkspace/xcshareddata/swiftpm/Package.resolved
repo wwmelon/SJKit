@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "PromiseKit",
+        "repositoryURL": "git@github.com:mxcl/PromiseKit.git",
+        "state": {
+          "branch": null,
+          "revision": "c946b7561fbe11379a874e59faa2c5f8077ae0e1",
+          "version": "6.17.1"
+        }
+      },
+      {
         "package": "SnapKit",
         "repositoryURL": "git@github.com:SnapKit/SnapKit.git",
         "state": {
